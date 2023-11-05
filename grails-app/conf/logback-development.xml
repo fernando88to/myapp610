@@ -12,19 +12,8 @@
         </encoder>
     </appender>
 
-    <root level="error">
+    <root level="info">
         <appender-ref ref="STDOUT" />
     </root>
 
-    <!--dessa forma não precisa criar 2 arquivos -->
-    <springProfile name="development">
-
-        <!-- Definição do nível de log para o pacote com.fernando.jobs -->
-        <logger name="com.fernando.jobs" level="info" />
-
-
-        <root level="info">
-            <appender-ref ref="STDOUT"/>
-        </root>
-    </springProfile>
 </configuration>

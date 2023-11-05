@@ -1,4 +1,4 @@
-package com.fernando
+package com.fernando.jobs
 
 import groovy.transform.CompileDynamic
 
@@ -12,7 +12,7 @@ class MyProcessJob {
 
     @SuppressWarnings('MethodReturnTypeRequired')
     def execute() {
-        log.('rodando job')
+        log.info('rodando job')
     }
 
 }
