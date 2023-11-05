@@ -41,3 +41,21 @@ A ferramente de cobertura do intellij com a opção jacoco até que funcionou be
 docker build .  -t myapp:latest
 docker run --rm -d -p 8080:8080 myapp:latest
 `
+
+## Tabela de comandos
+
+| Comando Grails |Comando Gladew  |
+|--|--|
+|grails war  | ./gradlew assemble |
+|grails check  | ./gradlew test-app |
+|grails test  | grails test-app -unit |
+|grails integrationTest  | grails test-app -integration |
+
+
+## Ativação do hot Reloading
+
+É necessário da seguinte dependência
+
+`
+developmentOnly("org.springframework.boot:spring-boot-devtools")
+`

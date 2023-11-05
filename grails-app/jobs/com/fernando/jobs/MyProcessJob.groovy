@@ -7,7 +7,7 @@ import groovy.transform.CompileDynamic
 class MyProcessJob {
 
     static triggers = {
-        simple repeatInterval: 1000l // execute job once in 5 seconds
+        simple repeatInterval: 1000l * 12 // execute job once in 5 seconds
     }
 
     @SuppressWarnings('MethodReturnTypeRequired')
