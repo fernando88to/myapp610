@@ -33,3 +33,11 @@ A ferramente de cobertura do intellij com a opção jacoco até que funcionou be
 ### Lista todas as tasks
 
 ./gradlew tasks --all
+
+### Docker
+
+`
+./gradlew war
+docker build .  -t myapp:latest
+docker run --rm -d -p 8080:8080 myapp:latest
+`
