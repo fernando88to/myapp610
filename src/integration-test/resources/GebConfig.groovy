@@ -4,6 +4,7 @@ import org.openqa.selenium.firefox.FirefoxDriver
 import org.openqa.selenium.firefox.FirefoxOptions
 import org.openqa.selenium.safari.SafariDriver
 
+//tiver que deixar o firefox como o padrão
 driver = {  // Default driver configuration
     FirefoxOptions options = new FirefoxOptions()
     options.setBinary("/usr/bin/firefox")  // Especifique o caminho do executável do Firefox aqui
