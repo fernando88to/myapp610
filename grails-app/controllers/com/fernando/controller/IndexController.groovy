@@ -1,4 +1,4 @@
-package com.fernando
+package com.fernando.controller
 
 import groovy.transform.CompileStatic
 

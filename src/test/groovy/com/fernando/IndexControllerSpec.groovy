@@ -1,5 +1,6 @@
 package com.fernando
 
+import com.fernando.controller.IndexController
 import grails.testing.web.controllers.ControllerUnitTest
 import spock.lang.Specification
 
